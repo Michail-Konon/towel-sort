@@ -1,7 +1,7 @@
 
 // You should implement your task here.
 
-function towelSort (matrix) {
+module.exports = function towelSort (matrix) {
   if (matrix) {
   	matrix.forEach((element, index) => {
             if (index % 2) {
